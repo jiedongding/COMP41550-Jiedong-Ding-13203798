@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180E18A1187DC61300DB4667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180E18A0187DC61300DB4667 /* Foundation.framework */; };
+		180E18A3187DC61300DB4667 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180E18A2187DC61300DB4667 /* CoreGraphics.framework */; };
+		180E18A5187DC61300DB4667 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180E18A4187DC61300DB4667 /* UIKit.framework */; };
+		180E18AB187DC61300DB4667 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180E18A9187DC61300DB4667 /* InfoPlist.strings */; };
+		180E18AD187DC61300DB4667 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E18AC187DC61300DB4667 /* main.m */; };
+		180E18B1187DC61300DB4667 /* HelloUCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E18B0187DC61300DB4667 /* HelloUCDAppDelegate.m */; };
+		180E18B4187DC61300DB4667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180E18B2187DC61300DB4667 /* Main.storyboard */; };
+		180E18B7187DC61300DB4667 /* HelloUCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E18B6187DC61300DB4667 /* HelloUCDViewController.m */; };
+		180E18B9187DC61300DB4667 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180E18B8187DC61300DB4667 /* Images.xcassets */; };
+		180E18C0187DC61300DB4667 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180E18BF187DC61300DB4667 /* XCTest.framework */; };
+		180E18C1187DC61300DB4667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180E18A0187DC61300DB4667 /* Foundation.framework */; };
+		180E18C2187DC61300DB4667 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180E18A4187DC61300DB4667 /* UIKit.framework */; };
+		180E18CA187DC61300DB4667 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180E18C8187DC61300DB4667 /* InfoPlist.strings */; };
+		180E18CC187DC61300DB4667 /* HelloUCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E18CB187DC61300DB4667 /* HelloUCDTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180E18C3187DC61300DB4667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180E1895187DC61300DB4667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180E189C187DC61300DB4667;
+			remoteInfo = HelloUCD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180E189D187DC61300DB4667 /* HelloUCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloUCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180E18A0187DC61300DB4667 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		180E18A2187DC61300DB4667 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		180E18A4187DC61300DB4667 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		180E18A8187DC61300DB4667 /* HelloUCD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloUCD-Info.plist"; sourceTree = "<group>"; };
+		180E18AA187DC61300DB4667 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		180E18AC187DC61300DB4667 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180E18AE187DC61300DB4667 /* HelloUCD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloUCD-Prefix.pch"; sourceTree = "<group>"; };
+		180E18AF187DC61300DB4667 /* HelloUCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloUCDAppDelegate.h; sourceTree = "<group>"; };
+		180E18B0187DC61300DB4667 /* HelloUCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloUCDAppDelegate.m; sourceTree = "<group>"; };
+		180E18B3187DC61300DB4667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180E18B5187DC61300DB4667 /* HelloUCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloUCDViewController.h; sourceTree = "<group>"; };
+		180E18B6187DC61300DB4667 /* HelloUCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloUCDViewController.m; sourceTree = "<group>"; };
+		180E18B8187DC61300DB4667 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		180E18BE187DC61300DB4667 /* HelloUCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloUCDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180E18BF187DC61300DB4667 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		180E18C7187DC61300DB4667 /* HelloUCDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloUCDTests-Info.plist"; sourceTree = "<group>"; };
+		180E18C9187DC61300DB4667 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		180E18CB187DC61300DB4667 /* HelloUCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloUCDTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180E189A187DC61300DB4667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180E18A3187DC61300DB4667 /* CoreGraphics.framework in Frameworks */,
+				180E18A5187DC61300DB4667 /* UIKit.framework in Frameworks */,
+				180E18A1187DC61300DB4667 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180E18BB187DC61300DB4667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180E18C0187DC61300DB4667 /* XCTest.framework in Frameworks */,
+				180E18C2187DC61300DB4667 /* UIKit.framework in Frameworks */,
+				180E18C1187DC61300DB4667 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180E1894187DC61300DB4667 = {
+			isa = PBXGroup;
+			children = (
+				180E18A6187DC61300DB4667 /* HelloUCD */,
+				180E18C5187DC61300DB4667 /* HelloUCDTests */,
+				180E189F187DC61300DB4667 /* Frameworks */,
+				180E189E187DC61300DB4667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180E189E187DC61300DB4667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180E189D187DC61300DB4667 /* HelloUCD.app */,
+				180E18BE187DC61300DB4667 /* HelloUCDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180E189F187DC61300DB4667 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180E18A0187DC61300DB4667 /* Foundation.framework */,
+				180E18A2187DC61300DB4667 /* CoreGraphics.framework */,
+				180E18A4187DC61300DB4667 /* UIKit.framework */,
+				180E18BF187DC61300DB4667 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180E18A6187DC61300DB4667 /* HelloUCD */ = {
+			isa = PBXGroup;
+			children = (
+				180E18B2187DC61300DB4667 /* Main.storyboard */,
+				180E18B5187DC61300DB4667 /* HelloUCDViewController.h */,
+				180E18B6187DC61300DB4667 /* HelloUCDViewController.m */,
+				180E18B8187DC61300DB4667 /* Images.xcassets */,
+				180E18A7187DC61300DB4667 /* Supporting Files */,
+			);
+			path = HelloUCD;
+			sourceTree = "<group>";
+		};
+		180E18A7187DC61300DB4667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180E18AF187DC61300DB4667 /* HelloUCDAppDelegate.h */,
+				180E18B0187DC61300DB4667 /* HelloUCDAppDelegate.m */,
+				180E18A8187DC61300DB4667 /* HelloUCD-Info.plist */,
+				180E18A9187DC61300DB4667 /* InfoPlist.strings */,
+				180E18AC187DC61300DB4667 /* main.m */,
+				180E18AE187DC61300DB4667 /* HelloUCD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180E18C5187DC61300DB4667 /* HelloUCDTests */ = {
+			isa = PBXGroup;
+			children = (
+				180E18CB187DC61300DB4667 /* HelloUCDTests.m */,
+				180E18C6187DC61300DB4667 /* Supporting Files */,
+			);
+			path = HelloUCDTests;
+			sourceTree = "<group>";
+		};
+		180E18C6187DC61300DB4667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180E18C7187DC61300DB4667 /* HelloUCDTests-Info.plist */,
+				180E18C8187DC61300DB4667 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180E189C187DC61300DB4667 /* HelloUCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180E18CF187DC61300DB4667 /* Build configuration list for PBXNativeTarget "HelloUCD" */;
+			buildPhases = (
+				180E1899187DC61300DB4667 /* Sources */,
+				180E189A187DC61300DB4667 /* Frameworks */,
+				180E189B187DC61300DB4667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloUCD;
+			productName = HelloUCD;
+			productReference = 180E189D187DC61300DB4667 /* HelloUCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180E18BD187DC61300DB4667 /* HelloUCDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180E18D2187DC61300DB4667 /* Build configuration list for PBXNativeTarget "HelloUCDTests" */;
+			buildPhases = (
+				180E18BA187DC61300DB4667 /* Sources */,
+				180E18BB187DC61300DB4667 /* Frameworks */,
+				180E18BC187DC61300DB4667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180E18C4187DC61300DB4667 /* PBXTargetDependency */,
+			);
+			name = HelloUCDTests;
+			productName = HelloUCDTests;
+			productReference = 180E18BE187DC61300DB4667 /* HelloUCDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180E1895187DC61300DB4667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HelloUCD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = COMP41550;
+				TargetAttributes = {
+					180E18BD187DC61300DB4667 = {
+						TestTargetID = 180E189C187DC61300DB4667;
+					};
+				};
+			};
+			buildConfigurationList = 180E1898187DC61300DB4667 /* Build configuration list for PBXProject "HelloUCD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180E1894187DC61300DB4667;
+			productRefGroup = 180E189E187DC61300DB4667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180E189C187DC61300DB4667 /* HelloUCD */,
+				180E18BD187DC61300DB4667 /* HelloUCDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180E189B187DC61300DB4667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180E18B9187DC61300DB4667 /* Images.xcassets in Resources */,
+				180E18AB187DC61300DB4667 /* InfoPlist.strings in Resources */,
+				180E18B4187DC61300DB4667 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180E18BC187DC61300DB4667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180E18CA187DC61300DB4667 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180E1899187DC61300DB4667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180E18B7187DC61300DB4667 /* HelloUCDViewController.m in Sources */,
+				180E18B1187DC61300DB4667 /* HelloUCDAppDelegate.m in Sources */,
+				180E18AD187DC61300DB4667 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180E18BA187DC61300DB4667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180E18CC187DC61300DB4667 /* HelloUCDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180E18C4187DC61300DB4667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180E189C187DC61300DB4667 /* HelloUCD */;
+			targetProxy = 180E18C3187DC61300DB4667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180E18A9187DC61300DB4667 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180E18AA187DC61300DB4667 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		180E18B2187DC61300DB4667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180E18B3187DC61300DB4667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180E18C8187DC61300DB4667 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180E18C9187DC61300DB4667 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180E18CD187DC61300DB4667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180E18CE187DC61300DB4667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180E18D0187DC61300DB4667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloUCD/HelloUCD-Prefix.pch";
+				INFOPLIST_FILE = "HelloUCD/HelloUCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		180E18D1187DC61300DB4667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloUCD/HelloUCD-Prefix.pch";
+				INFOPLIST_FILE = "HelloUCD/HelloUCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		180E18D3187DC61300DB4667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloUCD.app/HelloUCD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloUCD/HelloUCD-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloUCDTests/HelloUCDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		180E18D4187DC61300DB4667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloUCD.app/HelloUCD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloUCD/HelloUCD-Prefix.pch";
+				INFOPLIST_FILE = "HelloUCDTests/HelloUCDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180E1898187DC61300DB4667 /* Build configuration list for PBXProject "HelloUCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180E18CD187DC61300DB4667 /* Debug */,
+				180E18CE187DC61300DB4667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180E18CF187DC61300DB4667 /* Build configuration list for PBXNativeTarget "HelloUCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180E18D0187DC61300DB4667 /* Debug */,
+				180E18D1187DC61300DB4667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		180E18D2187DC61300DB4667 /* Build configuration list for PBXNativeTarget "HelloUCDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180E18D3187DC61300DB4667 /* Debug */,
+				180E18D4187DC61300DB4667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180E1895187DC61300DB4667 /* Project object */;
+}

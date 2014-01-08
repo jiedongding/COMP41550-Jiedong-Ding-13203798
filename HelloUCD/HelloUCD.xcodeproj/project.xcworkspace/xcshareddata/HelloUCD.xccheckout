@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>59888BAF-EA42-442F-8E50-EBB27DA3C0C1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HelloUCD</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>20AC8550-A93E-4A21-A224-EC22E920788F</key>
+		<string>https://github.com/sd7232126/COMP41550-Jiedong-Ding-13203798.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HelloUCD/HelloUCD.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>20AC8550-A93E-4A21-A224-EC22E920788F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sd7232126/COMP41550-Jiedong-Ding-13203798.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>20AC8550-A93E-4A21-A224-EC22E920788F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>20AC8550-A93E-4A21-A224-EC22E920788F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>COMP41550-Jiedong-Ding-13203798</string>
+		</dict>
+	</array>
+</dict>
+</plist>
