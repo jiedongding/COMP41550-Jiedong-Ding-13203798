@@ -9,36 +9,41 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="HelloUCDViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="FcR-9I-ckR"/>
-                        <viewControllerLayoutGuide type="bottom" id="G13-8R-db6"/>
+                        <viewControllerLayoutGuide type="top" id="Aom-cd-Gpd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Am6-WS-cgg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Hello UCD!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wyb-KL-iLl">
-                                <rect key="frame" x="96" y="20" width="128" height="37"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello UCD!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wyb-KL-iLl">
+                                <rect key="frame" x="99" y="40" width="123" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ucdlogo" translatesAutoresizingMaskIntoConstraints="NO" id="w9g-9T-Fsm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ucdlogo" translatesAutoresizingMaskIntoConstraints="NO" id="w9g-9T-Fsm">
                                 <rect key="frame" x="50" y="78" width="221" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="Wyb-KL-iLl" secondAttribute="centerX" id="U9x-Pe-Daw"/>
-                            <constraint firstAttribute="centerX" secondItem="w9g-9T-Fsm" secondAttribute="centerX" id="zaK-NN-O0m"/>
+                            <constraint firstItem="w9g-9T-Fsm" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="50" id="4T7-mB-D4J"/>
+                            <constraint firstItem="Wyb-KL-iLl" firstAttribute="top" secondItem="Aom-cd-Gpd" secondAttribute="bottom" constant="20" id="HPA-Im-O7u"/>
+                            <constraint firstItem="Am6-WS-cgg" firstAttribute="top" secondItem="w9g-9T-Fsm" secondAttribute="bottom" constant="78" id="Td0-0o-Oe8"/>
+                            <constraint firstItem="Wyb-KL-iLl" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="99" id="XTg-6m-dGf"/>
+                            <constraint firstAttribute="trailing" secondItem="Wyb-KL-iLl" secondAttribute="trailing" constant="98" id="Xx6-EZ-fZh"/>
+                            <constraint firstItem="w9g-9T-Fsm" firstAttribute="centerX" secondItem="Wyb-KL-iLl" secondAttribute="centerX" id="YGR-Tb-TBy"/>
+                            <constraint firstItem="w9g-9T-Fsm" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="vV0-Bt-HL3"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="81" y="62"/>
+            <point key="canvasLocation" x="65" y="83"/>
         </scene>
     </scenes>
     <resources>
