@@ -133,7 +133,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="47k-MH-3at">
-                        <barButtonItem key="rightBarButtonItem" title="Add to Favorite" id="go2-h3-YEy">
+                        <barButtonItem key="rightBarButtonItem" image="star" id="go2-h3-YEy">
                             <connections>
                                 <action selector="addToFavorite:" destination="jVZ-2B-86c" id="qr2-z2-1lg"/>
                             </connections>
@@ -311,6 +311,9 @@
             <point key="canvasLocation" x="-412" y="311"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="star" width="25" height="25"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
