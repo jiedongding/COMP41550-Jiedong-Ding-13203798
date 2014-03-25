@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182625D818DE56BA00561F72 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 182625D718DE56BA00561F72 /* Photo.m */; };
+		1866770D18D9F328008CBE79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866770C18D9F328008CBE79 /* Foundation.framework */; };
+		1866770F18D9F328008CBE79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866770E18D9F328008CBE79 /* CoreGraphics.framework */; };
+		1866771118D9F328008CBE79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866771018D9F328008CBE79 /* UIKit.framework */; };
+		1866771318D9F328008CBE79 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866771218D9F328008CBE79 /* CoreData.framework */; };
+		1866771918D9F328008CBE79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1866771718D9F328008CBE79 /* InfoPlist.strings */; };
+		1866771B18D9F328008CBE79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866771A18D9F328008CBE79 /* main.m */; };
+		1866771F18D9F329008CBE79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866771E18D9F329008CBE79 /* AppDelegate.m */; };
+		1866772218D9F329008CBE79 /* FlickrBrowser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1866772018D9F329008CBE79 /* FlickrBrowser.xcdatamodeld */; };
+		1866772418D9F329008CBE79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1866772318D9F329008CBE79 /* Images.xcassets */; };
+		1866772B18D9F329008CBE79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866772A18D9F329008CBE79 /* XCTest.framework */; };
+		1866772C18D9F329008CBE79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866770C18D9F328008CBE79 /* Foundation.framework */; };
+		1866772D18D9F329008CBE79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866771018D9F328008CBE79 /* UIKit.framework */; };
+		1866772E18D9F329008CBE79 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866771218D9F328008CBE79 /* CoreData.framework */; };
+		1866773618D9F329008CBE79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1866773418D9F329008CBE79 /* InfoPlist.strings */; };
+		1866773818D9F329008CBE79 /* FlickrBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866773718D9F329008CBE79 /* FlickrBrowserTests.m */; };
+		1866775D18DA3642008CBE79 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866775C18DA3642008CBE79 /* MapKit.framework */; };
+		186CAD2018DB30B20033C9A1 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CAD1318DB30B20033C9A1 /* Annotation.m */; };
+		186CAD2118DB30B20033C9A1 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CAD1618DB30B20033C9A1 /* FlickrFetcher.m */; };
+		186CAD2218DB30B20033C9A1 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186CAD1718DB30B20033C9A1 /* iPhone.storyboard */; };
+		186CAD2318DB30B20033C9A1 /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CAD1918DB30B20033C9A1 /* MapVC.m */; };
+		186CAD2418DB30B20033C9A1 /* PhotosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CAD1B18DB30B20033C9A1 /* PhotosTVC.m */; };
+		186CAD2518DB30B20033C9A1 /* PhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CAD1D18DB30B20033C9A1 /* PhotoVC.m */; };
+		186CAD2618DB30B20033C9A1 /* TagsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CAD1F18DB30B20033C9A1 /* TagsTVC.m */; };
+		186CAD2B18DB369B0033C9A1 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CAD2818DB369B0033C9A1 /* CoreDataTableViewController.m */; };
+		186CAD2C18DB369B0033C9A1 /* Photo+Flickr.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CAD2A18DB369B0033C9A1 /* Photo+Flickr.m */; };
+		186CAD3818DB41A50033C9A1 /* FavoritesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CAD3718DB41A50033C9A1 /* FavoritesTVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1866772F18D9F329008CBE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1866770118D9F328008CBE79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1866770818D9F328008CBE79;
+			remoteInfo = FlickrBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182625D618DE56BA00561F72 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		182625D718DE56BA00561F72 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		1866770918D9F328008CBE79 /* FlickrBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1866770C18D9F328008CBE79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1866770E18D9F328008CBE79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1866771018D9F328008CBE79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1866771218D9F328008CBE79 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1866771618D9F328008CBE79 /* FlickrBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickrBrowser-Info.plist"; sourceTree = "<group>"; };
+		1866771818D9F328008CBE79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1866771A18D9F328008CBE79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1866771C18D9F329008CBE79 /* FlickrBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlickrBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		1866771D18D9F329008CBE79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1866771E18D9F329008CBE79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1866772118D9F329008CBE79 /* FlickrBrowser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlickrBrowser.xcdatamodel; sourceTree = "<group>"; };
+		1866772318D9F329008CBE79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1866772918D9F329008CBE79 /* FlickrBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickrBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1866772A18D9F329008CBE79 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1866773318D9F329008CBE79 /* FlickrBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickrBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		1866773518D9F329008CBE79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1866773718D9F329008CBE79 /* FlickrBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrBrowserTests.m; sourceTree = "<group>"; };
+		1866775C18DA3642008CBE79 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		186CAD1218DB30B20033C9A1 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		186CAD1318DB30B20033C9A1 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		186CAD1418DB30B20033C9A1 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		186CAD1518DB30B20033C9A1 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		186CAD1618DB30B20033C9A1 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		186CAD1718DB30B20033C9A1 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		186CAD1818DB30B20033C9A1 /* MapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapVC.h; sourceTree = "<group>"; };
+		186CAD1918DB30B20033C9A1 /* MapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapVC.m; sourceTree = "<group>"; };
+		186CAD1A18DB30B20033C9A1 /* PhotosTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosTVC.h; sourceTree = "<group>"; };
+		186CAD1B18DB30B20033C9A1 /* PhotosTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosTVC.m; sourceTree = "<group>"; };
+		186CAD1C18DB30B20033C9A1 /* PhotoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoVC.h; sourceTree = "<group>"; };
+		186CAD1D18DB30B20033C9A1 /* PhotoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoVC.m; sourceTree = "<group>"; };
+		186CAD1E18DB30B20033C9A1 /* TagsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsTVC.h; sourceTree = "<group>"; };
+		186CAD1F18DB30B20033C9A1 /* TagsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsTVC.m; sourceTree = "<group>"; };
+		186CAD2718DB369B0033C9A1 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		186CAD2818DB369B0033C9A1 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		186CAD2918DB369B0033C9A1 /* Photo+Flickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photo+Flickr.h"; sourceTree = "<group>"; };
+		186CAD2A18DB369B0033C9A1 /* Photo+Flickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photo+Flickr.m"; sourceTree = "<group>"; };
+		186CAD3618DB41A50033C9A1 /* FavoritesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesTVC.h; sourceTree = "<group>"; };
+		186CAD3718DB41A50033C9A1 /* FavoritesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesTVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1866770618D9F328008CBE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1866775D18DA3642008CBE79 /* MapKit.framework in Frameworks */,
+				1866770F18D9F328008CBE79 /* CoreGraphics.framework in Frameworks */,
+				1866771318D9F328008CBE79 /* CoreData.framework in Frameworks */,
+				1866771118D9F328008CBE79 /* UIKit.framework in Frameworks */,
+				1866770D18D9F328008CBE79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1866772618D9F329008CBE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1866772B18D9F329008CBE79 /* XCTest.framework in Frameworks */,
+				1866772E18D9F329008CBE79 /* CoreData.framework in Frameworks */,
+				1866772D18D9F329008CBE79 /* UIKit.framework in Frameworks */,
+				1866772C18D9F329008CBE79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182625DA18E0E9E100561F72 /* Flickr */ = {
+			isa = PBXGroup;
+			children = (
+				186CAD1418DB30B20033C9A1 /* FlickrAPIKey.h */,
+				186CAD1518DB30B20033C9A1 /* FlickrFetcher.h */,
+				186CAD1618DB30B20033C9A1 /* FlickrFetcher.m */,
+			);
+			name = Flickr;
+			path = FlickrBrowser;
+			sourceTree = "<group>";
+		};
+		1866770018D9F328008CBE79 = {
+			isa = PBXGroup;
+			children = (
+				182625DA18E0E9E100561F72 /* Flickr */,
+				1866771418D9F328008CBE79 /* FlickrBrowser */,
+				1866773118D9F329008CBE79 /* FlickrBrowserTests */,
+				1866770B18D9F328008CBE79 /* Frameworks */,
+				1866770A18D9F328008CBE79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1866770A18D9F328008CBE79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1866770918D9F328008CBE79 /* FlickrBrowser.app */,
+				1866772918D9F329008CBE79 /* FlickrBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1866770B18D9F328008CBE79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1866775C18DA3642008CBE79 /* MapKit.framework */,
+				1866770C18D9F328008CBE79 /* Foundation.framework */,
+				1866770E18D9F328008CBE79 /* CoreGraphics.framework */,
+				1866771018D9F328008CBE79 /* UIKit.framework */,
+				1866771218D9F328008CBE79 /* CoreData.framework */,
+				1866772A18D9F329008CBE79 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1866771418D9F328008CBE79 /* FlickrBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				186CAD2718DB369B0033C9A1 /* CoreDataTableViewController.h */,
+				186CAD2818DB369B0033C9A1 /* CoreDataTableViewController.m */,
+				186CAD2918DB369B0033C9A1 /* Photo+Flickr.h */,
+				186CAD2A18DB369B0033C9A1 /* Photo+Flickr.m */,
+				186CAD3618DB41A50033C9A1 /* FavoritesTVC.h */,
+				186CAD3718DB41A50033C9A1 /* FavoritesTVC.m */,
+				186CAD1718DB30B20033C9A1 /* iPhone.storyboard */,
+				186CAD1218DB30B20033C9A1 /* Annotation.h */,
+				186CAD1318DB30B20033C9A1 /* Annotation.m */,
+				186CAD1818DB30B20033C9A1 /* MapVC.h */,
+				186CAD1918DB30B20033C9A1 /* MapVC.m */,
+				186CAD1A18DB30B20033C9A1 /* PhotosTVC.h */,
+				186CAD1B18DB30B20033C9A1 /* PhotosTVC.m */,
+				186CAD1C18DB30B20033C9A1 /* PhotoVC.h */,
+				186CAD1D18DB30B20033C9A1 /* PhotoVC.m */,
+				186CAD1E18DB30B20033C9A1 /* TagsTVC.h */,
+				186CAD1F18DB30B20033C9A1 /* TagsTVC.m */,
+				1866771D18D9F329008CBE79 /* AppDelegate.h */,
+				1866771E18D9F329008CBE79 /* AppDelegate.m */,
+				1866772318D9F329008CBE79 /* Images.xcassets */,
+				182625D618DE56BA00561F72 /* Photo.h */,
+				182625D718DE56BA00561F72 /* Photo.m */,
+				1866772018D9F329008CBE79 /* FlickrBrowser.xcdatamodeld */,
+				1866771518D9F328008CBE79 /* Supporting Files */,
+			);
+			path = FlickrBrowser;
+			sourceTree = "<group>";
+		};
+		1866771518D9F328008CBE79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1866771618D9F328008CBE79 /* FlickrBrowser-Info.plist */,
+				1866771718D9F328008CBE79 /* InfoPlist.strings */,
+				1866771A18D9F328008CBE79 /* main.m */,
+				1866771C18D9F329008CBE79 /* FlickrBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1866773118D9F329008CBE79 /* FlickrBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				1866773718D9F329008CBE79 /* FlickrBrowserTests.m */,
+				1866773218D9F329008CBE79 /* Supporting Files */,
+			);
+			path = FlickrBrowserTests;
+			sourceTree = "<group>";
+		};
+		1866773218D9F329008CBE79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1866773318D9F329008CBE79 /* FlickrBrowserTests-Info.plist */,
+				1866773418D9F329008CBE79 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1866770818D9F328008CBE79 /* FlickrBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1866773B18D9F329008CBE79 /* Build configuration list for PBXNativeTarget "FlickrBrowser" */;
+			buildPhases = (
+				1866770518D9F328008CBE79 /* Sources */,
+				1866770618D9F328008CBE79 /* Frameworks */,
+				1866770718D9F328008CBE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlickrBrowser;
+			productName = FlickrBrowser;
+			productReference = 1866770918D9F328008CBE79 /* FlickrBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1866772818D9F329008CBE79 /* FlickrBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1866773E18D9F329008CBE79 /* Build configuration list for PBXNativeTarget "FlickrBrowserTests" */;
+			buildPhases = (
+				1866772518D9F329008CBE79 /* Sources */,
+				1866772618D9F329008CBE79 /* Frameworks */,
+				1866772718D9F329008CBE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1866773018D9F329008CBE79 /* PBXTargetDependency */,
+			);
+			name = FlickrBrowserTests;
+			productName = FlickrBrowserTests;
+			productReference = 1866772918D9F329008CBE79 /* FlickrBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1866770118D9F328008CBE79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = UCD;
+				TargetAttributes = {
+					1866770818D9F328008CBE79 = {
+						DevelopmentTeam = QJJ8RUJ7UW;
+					};
+					1866772818D9F329008CBE79 = {
+						TestTargetID = 1866770818D9F328008CBE79;
+					};
+				};
+			};
+			buildConfigurationList = 1866770418D9F328008CBE79 /* Build configuration list for PBXProject "FlickrBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1866770018D9F328008CBE79;
+			productRefGroup = 1866770A18D9F328008CBE79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1866770818D9F328008CBE79 /* FlickrBrowser */,
+				1866772818D9F329008CBE79 /* FlickrBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1866770718D9F328008CBE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1866771918D9F328008CBE79 /* InfoPlist.strings in Resources */,
+				186CAD2218DB30B20033C9A1 /* iPhone.storyboard in Resources */,
+				1866772418D9F329008CBE79 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1866772718D9F329008CBE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1866773618D9F329008CBE79 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1866770518D9F328008CBE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186CAD2C18DB369B0033C9A1 /* Photo+Flickr.m in Sources */,
+				1866771F18D9F329008CBE79 /* AppDelegate.m in Sources */,
+				1866772218D9F329008CBE79 /* FlickrBrowser.xcdatamodeld in Sources */,
+				186CAD2018DB30B20033C9A1 /* Annotation.m in Sources */,
+				182625D818DE56BA00561F72 /* Photo.m in Sources */,
+				186CAD3818DB41A50033C9A1 /* FavoritesTVC.m in Sources */,
+				186CAD2318DB30B20033C9A1 /* MapVC.m in Sources */,
+				186CAD2B18DB369B0033C9A1 /* CoreDataTableViewController.m in Sources */,
+				186CAD2418DB30B20033C9A1 /* PhotosTVC.m in Sources */,
+				186CAD2118DB30B20033C9A1 /* FlickrFetcher.m in Sources */,
+				186CAD2618DB30B20033C9A1 /* TagsTVC.m in Sources */,
+				1866771B18D9F328008CBE79 /* main.m in Sources */,
+				186CAD2518DB30B20033C9A1 /* PhotoVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1866772518D9F329008CBE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1866773818D9F329008CBE79 /* FlickrBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1866773018D9F329008CBE79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1866770818D9F328008CBE79 /* FlickrBrowser */;
+			targetProxy = 1866772F18D9F329008CBE79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1866771718D9F328008CBE79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1866771818D9F328008CBE79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1866773418D9F329008CBE79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1866773518D9F329008CBE79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1866773918D9F329008CBE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1866773A18D9F329008CBE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1866773C18D9F329008CBE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickrBrowser/FlickrBrowser-Prefix.pch";
+				INFOPLIST_FILE = "FlickrBrowser/FlickrBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1866773D18D9F329008CBE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickrBrowser/FlickrBrowser-Prefix.pch";
+				INFOPLIST_FILE = "FlickrBrowser/FlickrBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1866773F18D9F329008CBE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlickrBrowser.app/FlickrBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickrBrowser/FlickrBrowser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlickrBrowserTests/FlickrBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1866774018D9F329008CBE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlickrBrowser.app/FlickrBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickrBrowser/FlickrBrowser-Prefix.pch";
+				INFOPLIST_FILE = "FlickrBrowserTests/FlickrBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1866770418D9F328008CBE79 /* Build configuration list for PBXProject "FlickrBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1866773918D9F329008CBE79 /* Debug */,
+				1866773A18D9F329008CBE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1866773B18D9F329008CBE79 /* Build configuration list for PBXNativeTarget "FlickrBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1866773C18D9F329008CBE79 /* Debug */,
+				1866773D18D9F329008CBE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1866773E18D9F329008CBE79 /* Build configuration list for PBXNativeTarget "FlickrBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1866773F18D9F329008CBE79 /* Debug */,
+				1866774018D9F329008CBE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1866772018D9F329008CBE79 /* FlickrBrowser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1866772118D9F329008CBE79 /* FlickrBrowser.xcdatamodel */,
+			);
+			currentVersion = 1866772118D9F329008CBE79 /* FlickrBrowser.xcdatamodel */;
+			path = FlickrBrowser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1866770118D9F328008CBE79 /* Project object */;
+}
