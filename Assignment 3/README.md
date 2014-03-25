@@ -7,4 +7,5 @@ Student_Number:	13203798
 Email:			jiedong.ding@ucdconnect.ie
 Comments:
 - Finish the basic requirements
-- I cannot find the star image for Favorite Bar Button, so I use the text "Add to Favorite" in the Bar Button
+- Using a star image to replace the "Add to Favorite" Bar Button
+- After adding photo to My Favorite, the star bur button becomes gray to be disable
